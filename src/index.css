@@ -1,0 +1,51 @@
+.rfi-error {
+    color: #ff0000;
+}
+
+#rfi label {
+    display: none;
+}
+
+#rfi label,
+#rfi input {
+    font-size: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#rfi .second-step > div {
+    display: inline-block;
+    width: 50%;
+}
+
+#rfi .field-type-email,
+#rfi .field-type-text,
+#rfi .field-type-phone {
+    width: 100%;
+    display: inline-block;
+    line-height: 34px;
+}
+
+#rfi .field-type-phone {
+    padding-left: 50px;
+}
+.intl-tel-input { width: 100% !important; }
+.iti-flag {background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/13.0.2/img/flags.png");}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .iti-flag {background-image: url("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/13.0.2/img/flags@2x.png");}
+}
+
+#rfi .field-email,
+#rfi .field-first-name,
+#rfi .field-last-name,
+#rfi .field-phone {
+    width: 100%;
+    display: block;
+}
+
+#rfi .field-type-email::placeholder,
+#rfi .field-type-text::placeholder,
+#rfi .field-type-phone::placeholder {
+    color: #aaa;
+}
+
